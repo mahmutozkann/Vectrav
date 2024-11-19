@@ -1,0 +1,221 @@
+/**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier Prime', monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #ff6347;
+    border-bottom: 2px solid #ff6347;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.menu li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: black;
+}
+
+/* Blog Header */
+.blog-header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.blog-header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.blog-header p {
+    font-size: 18px;
+    color: #777;
+}
+
+/*Image Grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Header: Profile Picture and Username */
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Card Body: Image */
+.card-body {
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card-body:hover .card-image {
+    transform: scale(1.05);
+}
+
+/* Card Footer: Buttons */
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #f0f0f0;
+    background-color: #fafafa;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.action-btn:hover {
+    color: #ff6347;
+}
+
+.action-btn i {
+    margin-right: 5px;
+}
+
+/* Card Container */
+.card-container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    perspective: 1000px;
+}
+
+/* General Card Style*/
+.card {
+    width: 350px;
+    /* Sabit genişlik */
+    height: 400px;
+    /* Sabit yükseklik */
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, left 0.4s ease, top 0.4s ease;
+}
+
+/* Original Photo Card */
+.original-photo {
+    top: 0;
+    left: -10px;
+    transform: rotate(-7deg);
+    z-index: 1;
+}
+
+/* Vektoricez Photo Card */
+.vector-photo {
+    top: 20px;
+    left: 10px;
+    transform: rotate(7deg);
+    z-index: 2;
+}
+
+/* Hover Effects */
+.card-container:hover .original-photo {
+    transform: rotate(0deg) translateX(-100px);
+    top: 0;
+    left: 0;
+}
+
+.card-container:hover .vector-photo {
+    transform: rotate(0deg) translateX(100px);
+    top: 0;
+    left: 160px;
+}
+
+.empty-box {
+    padding: 3px;
+}
