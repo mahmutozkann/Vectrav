@@ -4,66 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vectrav</title>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1dee709f5a.js" crossorigin="anonymous"></script>
+    <title>Destination - Vectrav</title>
     <link rel="stylesheet" href="/css/destination.css">
 </head>
 
 <body>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="brand">Vectrav</div>
+    <!-- Menu -->
+    <ul class="menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="destination.html" class="nav-link active">Destination</a></li>
+        <li><a href="photogallery.html" class="nav-link">Photo Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+</nav>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="brand">Vectrav</div>
-        <!-- Menu -->
-        <ul class="menu">
-            <li><a href="index.html" class="nav-link">Home</a></li>
-            <li><a href="blog.html" class="nav-link">Blog</a></li>
-            <li><a href="destination.html" class="nav-link active">Destination</a></li>
-            <li><a href="photogallery.html" class="nav-link">Photo Gallery</a></li>
-            <li><a href="contact.html" class="nav-link">Contact</a></li>
+<!-- DESTINATION İÇERİKLERİ -->
+<div class="container">
+    <h1>Hello, <span id="username-display">User</span>!</h1>
+    <p>Here’s a list of destinations you’ve explored:</p>
+
+    <!-- Şehir Listesi -->
+    <div class="destination-list-container">
+        <ul class="destination-list">
+            <!-- Dinamik olarak liste eklenecek -->
         </ul>
-    </nav>
-
-    <!-- Login Sayfası İçeriği -->
-    <div class="login-container">
-        <!-- Sol Arka Plan Görseli -->
-        <div class="background-image left-background"></div>
-
-        <!-- Sağ Arka Plan Görseli -->
-        <div class="background-image right-background"></div>
-
-        <!-- Login Formu -->
-        <div class="login-form-container">
-            <h2>Welcome Back!</h2>
-            <form class="login-form">
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <button type="submit" class="login-button">Login</button>
-            </form>
-
-            <!-- Şifreni mi unuttun -->
-            <div class="forgot-password">
-                <a href="#">Forgot your password?</a>
-            </div>
-
-            <!-- Divider -->
-            <div class="divider">
-                <span>OR</span>
-            </div>
-
-            <!-- Sign Up Butonu -->
-            <button class="signup-button">Sign Up</button>
-        </div>
     </div>
 
+    <!-- Yeni Yer Ekleme -->
+    <div class="add-destination">
+        <input type="text" id="new-destination" placeholder="Add a new place" />
+        <button id="add-destination-button">Add Destination</button>
+    </div>
+</div>
 
+<script src="/js/destination.js"></script>
 </body>
 
 </html>

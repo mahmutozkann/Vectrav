@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c6d9b8-1177-4da6-a351-aa23e42fde74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/destination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/destination.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/destination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/photogallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/photogallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/destination.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/destination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/photogallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/photogallery.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rvbhs8cBGLisRCkRPPLBdQ3fyg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +45,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737442618090</updated>
-      <workItem from="1737442619647" duration="892000" />
+      <workItem from="1737442619647" duration="1904000" />
+      <workItem from="1737736135722" duration="8535000" />
     </task>
     <servers />
   </component>
