@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c6d9b8-1177-4da6-a351-aa23e42fde74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/destination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/destination.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/destination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/photogallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/css/photogallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/destination.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/destination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/js/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/photogallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web Uygulamaları Geliştirme/Seyahat Blogu/photogallery.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737442618090</updated>
       <workItem from="1737442619647" duration="1904000" />
-      <workItem from="1737736135722" duration="8535000" />
+      <workItem from="1737736135722" duration="9389000" />
     </task>
     <servers />
   </component>
